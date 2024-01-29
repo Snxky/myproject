@@ -1,0 +1,145 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    height: 80px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0rem calc((100vw - 1300px)/2);
+}
+
+.logo {
+    color:#000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 1.5rem;
+}
+
+.hero{
+    background:rgb(137, 11, 11);
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: comlumn;
+    justify-content: center;
+    align-items: flex-start;
+    color: #000;
+    padding: 0rem 2rem;
+}
+
+.column-left h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5 rem;
+}
+
+.column-left p {
+    margin-bottom: 2rem;
+    font-size: 1.5 rem;
+    line-height: 1.5;
+}
+
+button {
+    padding: 1rem 3rem ;
+    font-size: 1rem;
+    border: none;
+    color:white;
+    background: #000;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.hero-image {
+    width:5%;
+    height: 5%;
+    margin-right: 50%;
+}
+
+
+.navbar{
+
+    background: crimson;
+    font-family: calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    margin-right: 700px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 18px;
+}
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+button{
+    background-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button a:hover {
+    background: aliceblue;
+    color: black;
+}
+
+.wembley-final{
+    width: 1000px;
+    height: 750px;
+    margin-bottom:1000px;
+}
+
+
+
+
+
+
